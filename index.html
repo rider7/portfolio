@@ -38,22 +38,22 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Brandon Rider</a>
+                <a href="#top" onclick=$( "#menu-close").click();>Brandon Rider</a>
             </li>
             <li>
-                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+                <a href="#top" onclick=$( "#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>About</a>
+                <a href="#about" onclick=$( "#menu-close").click();>About</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
+                <a href="#services" onclick=$( "#menu-close").click();>Skills</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Portfolio</a>
+                <a href="#portfolio" onclick=$( "#menu-close").click();>Portfolio</a>
             </li>
             <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
+                <a href="#contact" onclick=$( "#menu-close").click();>Contact</a>
             </li>
         </ul>
     </nav>
@@ -64,7 +64,7 @@
             <h1>Brandon Rider</h1>
             <h3>Web Developer</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <!-- <img class="img-circle" src="img/IMG_3041.jpg"> -->
         </div>
     </header>
 
@@ -202,6 +202,77 @@
         </div>
     </aside>
 
+    <!-- Modal Popups -->
+
+    <div class="modal" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">X</button>
+                    <h2 class="modal-title"> KarSync <h2>
+                </div> <!-- end .modal-header -->
+            <div class="modal-body">
+                <img class="img-responsive" src="img/karsync1.png">
+                <h3 style="margin-top: 10px">Full stack mechanic portal single page web application.</h3>
+<h4 style="font-style: italic">Tech Used: SQL, Express, AngularJS, and Node.js</h4>
+<ul>
+  <li>Implemented OAuth with Google so users can login with their google accounts.</li>
+<li>Used multiple ui-routes to manage the content for the SPA.</li>
+<li>Relied on node-mysql package to integrate SQL into the normally MEAN stack technologies per client’s request.</li>
+</ul>
+
+            </div> <!-- end .modal-body -->
+        </div> <!-- end .modal-content -->
+      </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    <div class="modal" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal">X</button>
+                    <h2 class="modal-title"> AIAIAI Headphones <h2>
+                </div> <!-- end .modal-header -->
+            <div class="modal-body">
+                <img class="img-responsive" src="img/aiaia1.png">
+                <p>Donec nec orci ac felis volutpat dignissim a eu ligula. Suspendisse ut massa a nunc posuere venenatis. Aenean tincidunt sit amet justo a finibus. Nunc tempus feugiat tellus porta bibendum. Praesent id ante sed mauris pharetra dictum. Sed accumsan, dolor convallis cursus pulvinar, magna mi scelerisque enim, at sagittis lacus ligula vel leo. Cras eu scelerisque ex. Vestibulum sagittis ante nunc, malesuada sodales lectus rhoncus et. Sed posuere malesuada nisl eu finibus. Phasellus eget justo vel turpis gravida rhoncus quis eu libero. </p>
+            </div> <!-- end .modal-body -->
+        </div> <!-- end .modal-content -->
+      </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    <div class="modal" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal">X</button>
+                    <h2 class="modal-title"> AIAIAI Headphones <h2>
+                </div> <!-- end .modal-header -->
+            <div class="modal-body">
+                <img class="img-responsive" src="img/aiaiai2.png">
+                <p>Donec nec orci ac felis volutpat dignissim a eu ligula. Suspendisse ut massa a nunc posuere venenatis. Aenean tincidunt sit amet justo a finibus. Nunc tempus feugiat tellus porta bibendum. Praesent id ante sed mauris pharetra dictum. Sed accumsan, dolor convallis cursus pulvinar, magna mi scelerisque enim, at sagittis lacus ligula vel leo. Cras eu scelerisque ex. Vestibulum sagittis ante nunc, malesuada sodales lectus rhoncus et. Sed posuere malesuada nisl eu finibus. Phasellus eget justo vel turpis gravida rhoncus quis eu libero. </p>
+            </div> <!-- end .modal-body -->
+        </div> <!-- end .modal-content -->
+      </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    <div class="modal" id="modal-4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" type="button" data-dismiss="modal">X</button>
+                    <h2 class="modal-title"> KarSync <h2>
+                </div> <!-- end .modal-header -->
+            <div class="modal-body">
+                <img class="img-responsive" src="img/karsync2.png">
+                <p>Donec nec orci ac felis volutpat dignissim a eu ligula. Suspendisse ut massa a nunc posuere venenatis. Aenean tincidunt sit amet justo a finibus. Nunc tempus feugiat tellus porta bibendum. Praesent id ante sed mauris pharetra dictum. Sed accumsan, dolor convallis cursus pulvinar, magna mi scelerisque enim, at sagittis lacus ligula vel leo. Cras eu scelerisque ex. Vestibulum sagittis ante nunc, malesuada sodales lectus rhoncus et. Sed posuere malesuada nisl eu finibus. Phasellus eget justo vel turpis gravida rhoncus quis eu libero. </p>
+            </div> <!-- end .modal-body -->
+        </div> <!-- end .modal-content -->
+      </div> <!-- end .modal-dialog -->
+    </div> <!-- end .modal -->
+
+    <!-- End Modals -->
+
     <!-- Portfolio -->
     <section id="portfolio" class="portfolio">
         <div class="container">
@@ -211,23 +282,23 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                    <img class="img-portfolio img-responsive" src="img/karsync1.png">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#modal-1">
+                                <img class="img-portfolio img-responsive" src="img/karsync1.png">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                    <img class="img-portfolio img-responsive" src="img/aiaia1.png">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#modal-2">
+                                <img class="img-portfolio img-responsive" src="img/aiaia1.png">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item" style="border: 1px; color: #337ab7;">
-                                    <img class="img-portfolio img-responsive" src="img/aiaiai2.png">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#modal-3">
+                                <img class="img-portfolio img-responsive" src="img/aiaiai2.png">
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="portfolio-item">
-                                    <img class="img-portfolio img-responsive" src="img/karsync2.png">
+                            <div class="portfolio-item" data-toggle="modal" data-target="#modal-4">
+                                <img class="img-portfolio img-responsive" src="img/karsync2.png">
                             </div>
                         </div>
                     </div>
@@ -239,134 +310,135 @@
             <!-- /.row -->
         </div>
         <!-- /.container -->
-    </section>
+        </section>
 
-    <!-- Call to Action -->
-    <aside class="call-to-action bg-primary">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3>Give me a call to talk about your next project!</h3>
+        <!-- Call to Action -->
+        <aside class="call-to-action bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h3>Give me a call to talk about your next project!</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-    </aside>
+        </aside>
 
-    <!-- Map -->
-    <section id="contact" class="map">
-      <div class="me">
-      </div>
-    </section>
+        <!-- Map -->
+        <section id="contact" class="map">
+            <div class="me">
+            </div>
+        </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Brandon Rider</strong>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h4><strong>Brandon Rider</strong>
                     </h4>
-                    <p>San Antonio, TX</p>
-                    <ul class="list-unstyled">
-                        <li><i class="fa fa-phone fa-fw"></i> (801) 636-5645</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:brandon.rider@gmail.com">brandon.rider@gmail.com</a>
-                        </li>
-                    </ul>
-                    <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="https://github.com/rider7"><i class="fa fa-github fa-fw fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/brandon-rider"><i class="fa fa-linkedin fa-fw fa-3x" aria-hidden="true"></i></a>
-                        </li>
-                    </ul>
-                    <hr class="small">
-                    <p class="text-muted">Copyright &copy; brandonrider.io 2016</p>
+                        <p>San Antonio, TX</p>
+                        <ul class="list-unstyled">
+                            <li><i class="fa fa-phone fa-fw"></i> (801) 636-5645</li>
+                            <li><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:brandon.rider@gmail.com">brandon.rider@gmail.com</a>
+                            </li>
+                        </ul>
+                        <br>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="https://github.com/rider7"><i class="fa fa-github fa-fw fa-3x" aria-hidden="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/brandon-rider"><i class="fa fa-linkedin fa-fw fa-3x" aria-hidden="true"></i></a>
+                            </li>
+                        </ul>
+                        <hr class="small">
+                        <p class="text-muted">Copyright &copy; brandonrider.io 2016</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
-    </footer>
+            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        </footer>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-1.12.4.js"   integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="   crossorigin="anonymous"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+        <!-- Bootstrap Core JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
+        <!-- Custom Theme JavaScript -->
+        <script>
+            // Closes the sidebar menu
+            $("#menu-close").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+            // Opens the sidebar menu
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#sidebar-wrapper").toggleClass("active");
+            });
+            // Scrolls to the selected menu item on the page
+            $(function() {
+                $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+                    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                        var target = $(this.hash);
+                        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                        if (target.length) {
+                            $('html,body').animate({
+                                scrollTop: target.offset().top
+                            }, 1000);
+                            return false;
+                        }
+                    }
+                });
+            });
+            //#to-top button appears after scrolling
+            var fixed = false;
+            $(document).scroll(function() {
+                if ($(this).scrollTop() > 250) {
+                    if (!fixed) {
+                        fixed = true;
+                        // $('#to-top').css({position:'fixed', display:'block'});
+                        $('#to-top').show("slow", function() {
+                            $('#to-top').css({
+                                position: 'fixed',
+                                display: 'block'
+                            });
+                        });
+                    }
+                } else {
+                    if (fixed) {
+                        fixed = false;
+                        $('#to-top').hide("slow", function() {
+                            $('#to-top').css({
+                                display: 'none'
+                            });
+                        });
+                    }
                 }
+            });
+            // Disable Google Maps scrolling
+            // See http://stackoverflow.com/a/25904582/1607849
+            // Disable scroll zooming and bind back the click event
+            var onMapMouseleaveHandler = function(event) {
+                var that = $(this);
+                that.on('click', onMapClickHandler);
+                that.off('mouseleave', onMapMouseleaveHandler);
+                that.find('iframe').css("pointer-events", "none");
             }
-        });
-    });
-    //#to-top button appears after scrolling
-    var fixed = false;
-    $(document).scroll(function() {
-        if ($(this).scrollTop() > 250) {
-            if (!fixed) {
-                fixed = true;
-                // $('#to-top').css({position:'fixed', display:'block'});
-                $('#to-top').show("slow", function() {
-                    $('#to-top').css({
-                        position: 'fixed',
-                        display: 'block'
-                    });
-                });
-            }
-        } else {
-            if (fixed) {
-                fixed = false;
-                $('#to-top').hide("slow", function() {
-                    $('#to-top').css({
-                        display: 'none'
-                    });
-                });
-            }
-        }
-    });
-    // Disable Google Maps scrolling
-    // See http://stackoverflow.com/a/25904582/1607849
-    // Disable scroll zooming and bind back the click event
-    var onMapMouseleaveHandler = function(event) {
-        var that = $(this);
-        that.on('click', onMapClickHandler);
-        that.off('mouseleave', onMapMouseleaveHandler);
-        that.find('iframe').css("pointer-events", "none");
-    }
-    var onMapClickHandler = function(event) {
-            var that = $(this);
-            // Disable the click handler until the user leaves the map area
-            that.off('click', onMapClickHandler);
-            // Enable scrolling zoom
-            that.find('iframe').css("pointer-events", "auto");
-            // Handle the mouse leave event
-            that.on('mouseleave', onMapMouseleaveHandler);
-        }
-        // Enable map zooming with mouse scroll when the user clicks the map
-    $('.map').on('click', onMapClickHandler);
-    </script>
+            var onMapClickHandler = function(event) {
+                    var that = $(this);
+                    // Disable the click handler until the user leaves the map area
+                    that.off('click', onMapClickHandler);
+                    // Enable scrolling zoom
+                    that.find('iframe').css("pointer-events", "auto");
+                    // Handle the mouse leave event
+                    that.on('mouseleave', onMapMouseleaveHandler);
+                }
+                // Enable map zooming with mouse scroll when the user clicks the map
+            $('.map').on('click', onMapClickHandler);
+        </script>
 
 </body>
+
 </html>
